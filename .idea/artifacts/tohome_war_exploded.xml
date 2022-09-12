@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tohome:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/tohome_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tohome/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tohome" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="ojdbc8" />
+        </element>
+      </element>
+      <element id="library" level="project" name="javax.servlet.api" />
+      <element id="library" level="project" name="ojdbc8" />
+    </root>
+  </artifact>
+</component>
