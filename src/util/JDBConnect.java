@@ -20,8 +20,8 @@ public class JDBConnect {
 
             // DB에 연결
             String url = "jdbc:oracle:thin:@localhost:1521/xepdb1";
-            String id = "ace";
-            String pwd = "me";
+            String id = "tohome";
+            String pwd = "1234";
             con = DriverManager.getConnection(url, id, pwd);
 
             System.out.println("DB 연결 성공(기본 생성자)");

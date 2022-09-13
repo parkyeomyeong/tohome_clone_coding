@@ -24,7 +24,6 @@ function go_save() {
 }
 
 function idcheck() {
-  console.log("안되는건가?");
   if (document.formm.id.value == "") {
     alert('아이디를 입력하여 주십시오.');
     document.formm.id.focus();
